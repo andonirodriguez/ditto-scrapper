@@ -3,7 +3,7 @@
 ## 📋 Pre-requisitos
 
 ✅ Repositorio subido a GitHub  
-✅ Archivos `requirements.txt` y `app.py` en la raíz  
+✅ Archivos `requirements.txt` y `streamlit_app.py` en la raíz  
 ✅ Configuración de Streamlit en `.streamlit/config.toml`  
 
 ## 🌐 Deploy en Streamlit Cloud
@@ -20,7 +20,7 @@
 ```
 Repository: tu-usuario/ditto-scrapper
 Branch: main
-Main file path: app.py
+Main file path: streamlit_app.py
 App URL (opcional): ditto-scraper-tu-usuario
 ```
 
@@ -40,7 +40,7 @@ STREAMLIT_SERVER_HEADLESS=true
 
 - ✅ **requirements.txt**: Dependencias específicas para Streamlit Cloud
 - ✅ **.streamlit/config.toml**: Tema personalizado
-- ✅ **app.py**: Aplicación principal optimizada para producción
+- ✅ **streamlit_app.py**: Aplicación principal optimizada para producción
 
 ## 🐛 Troubleshooting
 
@@ -49,7 +49,7 @@ STREAMLIT_SERVER_HEADLESS=true
 - Asegúrate de que las versiones sean compatibles
 
 ### Error: File not found
-- Confirma que `app.py` esté en la raíz del repositorio
+- Confirma que `streamlit_app.py` esté en la raíz del repositorio
 - Verifica que el path en la configuración sea correcto
 
 ### App muy lenta

@@ -27,7 +27,7 @@ cd ditto-scrapper
 poetry install
 
 # Ejecutar la aplicación web
-poetry run streamlit run app.py
+poetry run streamlit run streamlit_app.py
 ```
 
 ## 💻 Modos de Uso
@@ -38,7 +38,7 @@ La forma más fácil y visual de usar el scraper:
 
 ```bash
 # Opción 1: Usando Poetry
-poetry run streamlit run app.py
+poetry run streamlit run streamlit_app.py
 
 # Opción 2: Usando el script helper
 poetry run python run_streamlit.py
@@ -87,7 +87,7 @@ ditto-scrapper/
 ├── src/
 │   ├── __init__.py
 │   └── scraper.py           # Lógica principal del scraper
-├── app.py                   # 🌟 Aplicación Streamlit (PRINCIPAL)
+├── streamlit_app.py         # 🌟 Aplicación Streamlit (PRINCIPAL)
 ├── main.py                  # Ejemplos de uso en terminal
 ├── extract_article.py       # Script simple de extracción
 ├── run_streamlit.py         # Helper para ejecutar Streamlit
